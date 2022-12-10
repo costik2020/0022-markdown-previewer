@@ -80,11 +80,23 @@ breaks: true
 });
 
 
+
+
+
+
 function App() {
+    // Handle and change the themes
+    let [themeClass, setThemeClass] = useState("light");
+    
+    // Keep track of the md text in a state variable called `mdText`
     let [mdText, setMdText] = useState(initialDefalutMarkdown);
   return (
-    <div className="App">
+    <div id="App" className={`${themeClass}`}>
         <h1 className="myMarkdownApp">My Markdown Previewer in React</h1>
+        <div className="themes">Themes: 
+            <button onClick={(e)=>{setThemeClass(e.target.textContent)} }>light</button>
+            <button onClick={(e)=>{setThemeClass(e.target.textContent)} }>dark</button>
+        </div>
       
       <div className="container">
         <div className="editorWrap">
@@ -94,8 +106,7 @@ function App() {
         onChange={(e)=>{setMdText(e.target.value)}} 
         value={mdText}
         name="" 
-        cols="30" 
-        rows="10">
+        >
         </textarea>
     </div>
 

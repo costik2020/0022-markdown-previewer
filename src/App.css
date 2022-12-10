@@ -1,14 +1,108 @@
 * {
-    border: 1px solid black;
+    box-sizing: border-box;
  }
+
+:root {
+    --theme-bg-color: grey;
+}
+
+
+
+/*Theme light*/
+.light {
+    --theme-bg-color: green ;
+}
+
+.dark {
+    --theme-bg-color: black;
+}
+
+
 
 .myMarkdownApp {
     text-align: center;
+    padding: 0;
+    margin: 0;
 }
- .container {
+ 
+.themes button {
+    margin-left: 0.5rem;
+}
+
+
+.container {
      display: flex;
  }
 
  .editorWrap, .previewWrap {
-width: 50%;
+    width: 50%;
+    height: 90vh;
+   
  }
+
+ .toolbar {
+     border: 0.1rem solid black;
+     height: 1.6rem;
+     padding: 0.2rem;
+
+ }
+
+
+
+
+ #editor {
+     width: 100%;
+     height: calc(100% - 1.8rem);
+     font-family: monospace;
+
+    overflow-y: scroll;
+    scrollbar-color: grey transparent;
+    scrollbar-width: thick; 
+        
+ }
+
+#preview {
+    width: 100%;
+     height: calc(100% - 1.8rem);
+
+    overflow-y: scroll;
+    scrollbar-color: grey transparent;
+    scrollbar-width: thick; 
+
+    background-color: var(--theme-bg-color);
+
+}
+
+
+#preview img {
+    width: 80%;
+}
+
+
+
+
+body {
+    background: var(--theme-bg-color);
+}
+
+textarea {
+
+    background: var(--theme-bg-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
