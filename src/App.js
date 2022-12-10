@@ -15,7 +15,11 @@ function App() {
         cols="30" 
         rows="10">
         </textarea>
-        <div id="preview">{marked.parse(mdText)}</div>
+
+        <div id="preview"
+            dangerouslySetInnerHTML={{__html: marked.parse(mdText)}}   
+        >
+        </div>
     </div>
   );
 }
