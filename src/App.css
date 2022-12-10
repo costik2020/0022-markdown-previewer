@@ -1,1 +1,14 @@
+* {
+    border: 1px solid black;
+ }
 
+.myMarkdownApp {
+    text-align: center;
+}
+ .container {
+     display: flex;
+ }
+
+ .editorWrap, .previewWrap {
+width: 50%;
+ }

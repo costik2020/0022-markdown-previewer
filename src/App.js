@@ -84,7 +84,11 @@ function App() {
     let [mdText, setMdText] = useState(initialDefalutMarkdown);
   return (
     <div className="App">
-        <h1>My Markdown Previewer in React</h1>
+        <h1 className="myMarkdownApp">My Markdown Previewer in React</h1>
+      
+      <div className="container">
+        <div className="editorWrap">
+        <div className="toolbar">Editor</div>
         <textarea 
         id="editor" 
         onChange={(e)=>{setMdText(e.target.value)}} 
@@ -93,11 +97,16 @@ function App() {
         cols="30" 
         rows="10">
         </textarea>
+    </div>
 
+      <div className="previewWrap">
+        <div className="toolbar">Previewer</div>
         <div id="preview"
             dangerouslySetInnerHTML={{__html: marked.parse(mdText)}}   
         >
         </div>
+      </div>
+      </div>
     </div>
   );
 }
