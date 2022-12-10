@@ -4,13 +4,24 @@
 
 :root {
     --theme-bg-color: grey;
+    --theme-fg-color: black;
 }
 
 
 
 /*Theme light*/
 .light {
-    --theme-bg-color: green ;
+    --theme-bg-color: #EEE5E5  ;
+    --theme-fg-color: #37392E ;
+/*
+#EEE5E5
+#19647E
+#28AFB0
+#DDCECD
+#37392E
+
+*/
+
 }
 
 .dark {
@@ -18,13 +29,24 @@
 }
 
 
+html {
+    background-color: var(--theme-bg-color);
+}
 
 .myMarkdownApp {
     text-align: center;
     padding: 0;
     margin: 0;
+    background-color: var(--theme-bg-color);
+    color: var(--theme-fg-color);
+
 }
- 
+
+.themes {
+    background-color: var(--theme-bg-color);
+    color: var(--theme-fg-color);
+}
+
 .themes button {
     margin-left: 0.5rem;
 }
@@ -32,6 +54,7 @@
 
 .container {
      display: flex;
+    color: var(--theme-fg-color);
  }
 
  .editorWrap, .previewWrap {
@@ -44,6 +67,8 @@
      border: 0.1rem solid black;
      height: 1.6rem;
      padding: 0.2rem;
+    background-color: var(--theme-bg-color);
+    color: var(--theme-fg-color);
 
  }
 
@@ -58,6 +83,8 @@
     overflow-y: scroll;
     scrollbar-color: grey transparent;
     scrollbar-width: thick; 
+    background-color: var(--theme-bg-color);
+    color: var(--theme-fg-color);
         
  }
 
@@ -70,7 +97,7 @@
     scrollbar-width: thick; 
 
     background-color: var(--theme-bg-color);
-
+    color: var(--theme-fg-color);
 }
 
 
@@ -82,6 +109,7 @@
 
 
 body {
+    margin: 0;
     background: var(--theme-bg-color);
 }
 
