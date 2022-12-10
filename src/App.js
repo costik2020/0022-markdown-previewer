@@ -1,4 +1,5 @@
 import './App.css';
+import {marked} from "marked";
 import {useState} from "react";
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
         cols="30" 
         rows="10">
         </textarea>
-        <div id="preview">{mdText}</div>
+        <div id="preview">{marked.parse(mdText)}</div>
     </div>
   );
 }
