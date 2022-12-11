@@ -33,12 +33,52 @@
 }
 
 .dark {
-    --theme-bg-color: black;
+
+    --theme-bg-color: #282A3A;
+    --theme-fg-color: #C69749;
+    --theme-bg-color-toolbar: #735F32;
+    --theme-border-color: #735F32;
+    --theme-bg-code: #000000;
+    --theme-link-color: #FFFFFF;
+    --theme-table-border-color: #735F32;
+
+
 }
 
 
+.github {
+
+    --theme-bg-color: #FFFFFF;
+    --theme-fg-color: #24292F;
+    --theme-bg-color-toolbar: #2DA44E;
+    --theme-border-color: #2DA44E;
+    --theme-bg-code: #F6F8FA;
+    --theme-link-color: #0969DA;
+    --theme-table-border-color: #2DA44E;
+
+
+}
+
+
+
+.rainbow {
+
+    --theme-bg-color: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,154,0,1) 10%, rgba(208,222,33,1) 20%, rgba(79,220,74,1) 30%, rgba(63,218,216,1) 40%, rgba(47,201,226,1) 50%, rgba(28,127,238,1) 60%, rgba(95,21,242,1) 70%, rgba(186,12,248,1) 80%, rgba(251,7,217,1) 90%, rgba(255,0,0,1) 100%);
+    --theme-fg-color: #000000;
+    --theme-bg-color-toolbar: #FF0000;
+    --theme-border-color: #000000;
+    --theme-bg-code: #FF30EA;
+    --theme-link-color: #FF0000;
+    --theme-table-border-color: #E7E0E0;
+
+
+}
+
+
+
+
 html {
-    background-color: var(--theme-bg-color);
+    background: var(--theme-bg-color);
 }
 
 
@@ -52,7 +92,7 @@ html {
     text-align: center;
     padding: 0;
     margin: 0;
-    background-color: var(--theme-bg-color);
+    background: var(--theme-bg-color);
     color: var(--theme-fg-color);
 
 }
@@ -60,7 +100,7 @@ html {
 .themes {
     padding: 0.4rem;
     height: 2.2rem;
-    background-color: var(--theme-bg-color);
+    background: var(--theme-bg-color);
     color: var(--theme-fg-color);
 }
 
@@ -86,7 +126,7 @@ html {
      padding: 0.2rem;
      font-weight: bold;
      font-family: sans-serif;
-    background-color: var(--theme-bg-color-toolbar);
+    background: var(--theme-bg-color-toolbar);
     color: var(--theme-fg-color);
 
 
@@ -128,7 +168,7 @@ border: none;
     scrollbar-color: grey transparent;
     scrollbar-width: thick; 
 
-    background-color: var(--theme-bg-color);
+    background: var(--theme-bg-color);
     color: var(--theme-fg-color);
 }
 
@@ -143,13 +183,13 @@ border: none;
 
 #preview code {
     padding: 0 1rem;
-    background-color: var(--theme-bg-code);
+    background: var(--theme-bg-code);
 
 }
 
 #preview pre {
     padding: 0.5rem;
-    background-color: var(--theme-bg-code);
+    background: var(--theme-bg-code);
 }
 
 #preview a {

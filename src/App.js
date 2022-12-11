@@ -97,6 +97,10 @@ function App() {
         <div className="themes">Themes: 
             <button onClick={(e)=>{setThemeClass(e.target.textContent)} }>light</button>
             <button onClick={(e)=>{setThemeClass(e.target.textContent)} }>dark</button>
+            <button onClick={(e)=>{setThemeClass(e.target.textContent)} }>github</button>
+            <button onClick={(e)=>{setThemeClass(e.target.textContent)} }>rainbow</button>
+            <button onClick={(e)=>{setThemeClass(e.target.textContent)} }>dark</button>
+            <button onClick={(e)=>{setThemeClass(e.target.textContent)} }>dark</button>
         </div>
       
       <div className="container">
