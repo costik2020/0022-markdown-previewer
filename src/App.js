@@ -95,12 +95,12 @@ function App() {
     <div id="App" className={`${themeClass}`}>
         <h1 className="myMarkdownApp">My Markdown Previewer in React</h1>
         <div className="themes">Themes: 
-            <button onClick={(e)=>{setThemeClass(e.target.textContent)} }>light</button>
-            <button onClick={(e)=>{setThemeClass(e.target.textContent)} }>dark</button>
-            <button onClick={(e)=>{setThemeClass(e.target.textContent)} }>github</button>
-            <button onClick={(e)=>{setThemeClass(e.target.textContent)} }>rainbow</button>
-            <button onClick={(e)=>{setThemeClass(e.target.textContent)} }>matrix</button>
-            <button onClick={(e)=>{setThemeClass(e.target.textContent)} }>neon</button>
+            <button id="bt-light" onClick={(e)=>{setThemeClass(e.target.textContent)} }>light</button>
+            <button id="bt-dark" onClick={(e)=>{setThemeClass(e.target.textContent)} }>dark</button>
+            <button id="bt-rainbow" onClick={(e)=>{setThemeClass(e.target.textContent)} }>rainbow</button>
+            <button id="bt-matrix" onClick={(e)=>{setThemeClass(e.target.textContent)} }>matrix</button>
+            <button id="bt-github" onClick={(e)=>{setThemeClass(e.target.textContent)} }>github</button>
+            <button id="bt-neon" onClick={(e)=>{setThemeClass(e.target.textContent)} }>neon</button>
         </div>
       
       <div className="container">
