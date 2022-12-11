@@ -84,7 +84,7 @@
     --theme-bg-code: #000000;
     --theme-link-color: #FFFFFF;
     --theme-table-border-color: #735F32;
-    --theme-my-font: "codystarregular";
+    --theme-my-font: "codystarregular", sans-serif;
 
 
 }
@@ -99,7 +99,7 @@
     --theme-bg-code: #F6F8FA;
     --theme-link-color: #0969DA;
     --theme-table-border-color: #BBBBBB;
-    --theme-my-font: sans-serif;
+    --theme-my-font: sans-serif, serif;
 
 
 }
@@ -115,7 +115,7 @@
     --theme-bg-code: #FF30EA;
     --theme-link-color: #FF0000;
     --theme-table-border-color: #E7E0E0;
-    --theme-my-font: "rochesterregular";
+    --theme-my-font: "rochesterregular", cursive;
 
 
 }
@@ -131,7 +131,7 @@
     --theme-bg-code: #204829;
     --theme-link-color: #80ce87;
     --theme-table-border-color: #204829;
-    --theme-my-font: serif;
+    --theme-my-font: serif, sans-serif;
 
 
 }
@@ -160,7 +160,7 @@
     --theme-bg-code: #444444;
     --theme-link-color: #FFFFFF;
     --theme-table-border-color: #9E9E9E;
-    --theme-my-font: 'yellowtailregular';
+    --theme-my-font: 'yellowtailregular', cursive;
 
 
 }
@@ -284,22 +284,7 @@ html {
 
 
 
-/*
-    --theme-bg-color: #000000;
-    --theme-fg-color: #ff33cc;
 
-    text-shadow:
-        0 0 7px #ff33cc,
-        0 0 10px #ff33cc,
-        0 0 21px #ff33cc,
-        0 0 42px #ff33cc,
-        0 0 82px #ff33cc,
-        0 0 92px #ff33cc,
-        0 0 102px #ff33cc,
-        0 0 151px #ff33cc;
-
-
-*/
 
 .themes button[id="bt-neon"] {
     background: #000000;
