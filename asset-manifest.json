@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/0022-markdown-previewer/static/css/main.a6a00ca7.css",
+    "main.js": "/0022-markdown-previewer/static/js/main.8bb27670.js",
+    "static/media/codystar-regular-webfont.woff": "/0022-markdown-previewer/static/media/codystar-regular-webfont.a27d9e2d0881bcd3f6d9.woff",
+    "static/media/yellowtail-regular-webfont.woff": "/0022-markdown-previewer/static/media/yellowtail-regular-webfont.63321789b5ca1ef607c1.woff",
+    "static/media/rochester-regular-webfont.woff": "/0022-markdown-previewer/static/media/rochester-regular-webfont.fb4799f29fb626b07ce7.woff",
+    "static/media/yellowtail-regular-webfont.woff2": "/0022-markdown-previewer/static/media/yellowtail-regular-webfont.2334136e86864b5351b7.woff2",
+    "static/media/rochester-regular-webfont.woff2": "/0022-markdown-previewer/static/media/rochester-regular-webfont.d1e55663de0f8e1f482b.woff2",
+    "static/media/BPdots-webfont.woff": "/0022-markdown-previewer/static/media/BPdots-webfont.bfe6ef37edb8a54edabd.woff",
+    "index.html": "/0022-markdown-previewer/index.html",
+    "main.a6a00ca7.css.map": "/0022-markdown-previewer/static/css/main.a6a00ca7.css.map",
+    "main.8bb27670.js.map": "/0022-markdown-previewer/static/js/main.8bb27670.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a6a00ca7.css",
+    "static/js/main.8bb27670.js"
+  ]
+}
