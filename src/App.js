@@ -45,11 +45,12 @@ and Block Quotes:
 
 And you can make tables in markdown too:
 
-| ID | Title |
-|---|------|
-|#1 | Hello |
-|#2 | Markdown |
-
+| ID | Language  | Description |
+|----|-----------|-------------|
+|#1 | JavaScript |It is a programming language |
+|#2 | Markdown | It is a markup language, useful for taking notes |
+|#3| CSS | It is the styling language that makes the web pretty and sexy |
+|#4 | HTML | A markup language that provides the fundamental structure for a page |
 
 This is a list in markdown:
 
