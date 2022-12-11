@@ -76,6 +76,54 @@
 
 
 
+.matrix {
+
+    --theme-bg-color: #020204;
+    --theme-fg-color: #22b455;
+    --theme-bg-color-toolbar: #204829;
+    --theme-border-color: #204829;
+    --theme-bg-code: #204829;
+    --theme-link-color: #80ce87;
+    --theme-table-border-color: #204829;
+
+
+}
+
+.neon {
+
+
+    --theme-bg-color: #000000;
+    --theme-fg-color: #ff33cc;
+
+    text-shadow:
+        0 0 7px #ff33cc,
+        0 0 10px #ff33cc,
+        0 0 21px #ff33cc,
+        0 0 42px #ff33cc,
+        0 0 82px #ff33cc,
+        0 0 92px #ff33cc,
+        0 0 102px #ff33cc,
+        0 0 151px #ff33cc;
+
+
+
+
+    --theme-bg-color-toolbar: #444444;
+    --theme-border-color: #9E9E9E;
+    --theme-bg-code: #444444;
+    --theme-link-color: #FFFFFF;
+    --theme-table-border-color: #9E9E9E;
+
+
+}
+
+
+
+
+
+
+
+
 
 html {
     background: var(--theme-bg-color);
